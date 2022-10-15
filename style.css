@@ -1,10 +1,11 @@
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   margin: 0;
 }
 
@@ -12,15 +13,126 @@ body {
   background-color: rgba(255, 255, 255, 0.973);
   display: flex;
   justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
 }
 
+/* dindin */
+.dindin {
+  position: absolute;
+  width: 164px;
+  height: 64px;
+  left: 162px;
+  top: 33px;
+
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 64px;
+
+  color: #FFFFFF;
+}
+
+/* header */
+.header {
+  position: absolute;
+  width: 1440px;
+  height: 117px;
+  left: 0px;
+  top: 0px;
+
+  background: #2E948A;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+/* CURSOS */
+.cursos {
+  position: absolute;
+  width: 80px;
+  height: 23px;
+  left: 1028px;
+  top: 47px;
+
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #FDFDFD;
+}
+
+/* BLOG */
+.blog {
+  position: absolute;
+  width: 55px;
+  height: 23px;
+  left: 1150px;
+  top: 47px;
+
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #FDFDFD;
+}
+
+/* CONTATO */
+.contato {
+  position: absolute;
+  width: 95px;
+  height: 23px;
+  left: 1242px;
+  top: 47px;
+
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #FDFDFD;
+}
+
+.titulo {
+  position: absolute;
+  width: 488px;
+  height: 216px;
+  left: 206px;
+  top: 242px;
+
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 69px;
+  color: #FF4081;
+}
+
+.imagem {
+  position: absolute;
+  left: 50.9%;
+  right: 14.31%;
+  top: 7.88%;
+  bottom: 76.13%;
+
+  background: #2D2D2D;
+  border: 2px solid #555555;
+}
 
 /* RESPONSIVIDADE */
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:700px) {}
 
-}
-
-@media screen and (min-width:1000px){
- 
-}
+@media screen and (min-width:1000px) {}
