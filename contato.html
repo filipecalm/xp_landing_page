@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>DINDIN</title>
-	<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONTATO</title>
+  <link rel="stylesheet" href="style.css">
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 	</style>
@@ -26,15 +26,20 @@
 </header>
 
 <body>
-
-	<main>
-		<h1> Educação Financeira <br>é tudo de bom</h1>
-		<figure class="ilustra-banner">
-			<img src="./images/ilustra-banner.png" alt="Homem em cima de uma nuvem segurando na mão direita um gráfico e na mão esquerda uma resma">
-		</figure>
-
-	</main>
-
+  <main>
+    <div id="contato" class="content">
+      <h2>Contato</h2>
+      <form class="form" name="submit" onsubmit="alert('Enviado')" method="post" target="_self" action="#">
+        <label>Nome: </label><input class="nome" type="text" name="nome" autofocus required placeholder="     nome">
+        <label>E-mail: </label><input class="email" type="email" name="email" required placeholder="    email">
+        <label>Mensagem: </label><textarea rows="5" cols="2" class="msg" type="text" name="mensagem" required placeholder="  mensagem"></textarea>
+      </form>
+      <button class="btn-contato" type="submit">entrar</button>
+    </div>
+    <figure class="ilustra-contato">
+        <img src="./images/ilustra-contato.png" alt="Um homem e uma mulher conversando">
+    </figure>
+  </main>
 </body>
 
 <footer>
