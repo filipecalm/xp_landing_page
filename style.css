@@ -233,7 +233,7 @@ form {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   width: 100vw;
   height: 16%;
   bottom: 0px;
@@ -317,21 +317,6 @@ footer {
   border-radius: 0px;
 }
 
-.texto_cursos {
-  position: absolute;
-  width: 724px;
-  height: 105px;
-  left: 545px;
-  top: 483px;
-
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 21px;
-  color: #000000;
-}
-
 /* Rectangle 12 */
 .rectangle {
   position: absolute;
@@ -339,7 +324,7 @@ footer {
   height: 51px;
   left: 545px;
   top: 641px;
-  background: #000;
+  background: #419488;
   border-radius: 62px;
 }
 
@@ -369,9 +354,7 @@ footer {
   border-radius: 62px;
 
   background: #2E948A;
-  border-radius: 62px
-
-  font-family: 'Ubuntu';
+  border-radius: 62px font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -389,15 +372,44 @@ footer {
   border-radius: 62px;
 
   background: #2E948A;
-  border-radius: 62px
-
-  font-family: 'Ubuntu';
+  border-radius: 62px font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 22.98px;
   text-align: center;
   color: #FFFFFF;
+}
+
+.titulo_investimento {
+  position: absolute;
+  width: 512px;
+  height: 40px;
+  left: 545px;
+  top: 406px;
+
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  text-align: center;
+  color: #FF4081;
+}
+
+.texto_investimento {
+  position: absolute;
+  width: 724px;
+  height: 105px;
+  left: 545px;
+  top: 483px;
+
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
 }
 
 .titulo_poupando_rendendo {
@@ -411,7 +423,7 @@ footer {
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
-  line-height: 40px;
+  line-height: 40.22px;
   text-align: center;
   color: #FF4081;
 }
@@ -427,7 +439,7 @@ footer {
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 20.68px;
   color: #000000;
 }
 
@@ -442,7 +454,7 @@ footer {
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
-  line-height: 40px;
+  line-height: 40.22px;
   text-align: center;
   color: #FF4081;
 }
