@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.973);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* HEADER */
+
+.logo-header {
+  position: absolute;
+  left: 200px;
+  top: 20px;
+}
+
+header {
+  position: absolute;
+  width: 100vw;
+  height: 117px;
+  left: 0px;
+  top: 0px;
+  background: #2E948A;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+
+.cursos {
+  position: absolute;
+  width: 80px;
+  height: 23px;
+  right: 400px;
+  top: 47px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #FDFDFD;
+}
+
+.blog {
+  position: absolute;
+  width: 55px;
+  height: 23px;
+  right: 292px;
+  top: 47px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #FDFDFD;
+}
+
+.contato {
+  position: absolute;
+  width: 95px;
+  height: 23px;
+  right: 150px;
+  top: 47px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #FDFDFD;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* CONTATO */
+
+.ilustra-contato {
+  width: 444px;
+  height: 444px;
+  margin-top: 12rem;
+  margin-left: 12rem;
+}
+
+h2 {
+  height: 46px;
+  width: 154px;
+  font-family: Ubuntu;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 64, 129, 1);
+}
+
+form {
+  display: grid;
+  margin-top: 40px;
+}
+
+.nome,
+.email,
+.assunto {
+  width: 493px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+}
+
+#contato {
+  margin-top: 200px;
+  margin-left: 80px;
+  height: 600px;
+  text-shadow: white 0px 0px 1px;
+  font-size: 16px;
+}
+
+.btn-contato {
+  margin-top: 10px;
+  width: 100px;
+  height: 30px;
+  color: #FDFDFD;
+  background-color: #FF4081;
+  border-radius: 62px;
+  cursor: pointer;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  margin-left: 9.5rem;
+}
+
+.content {
+  background-color: white;
+  min-height: 600px;
+  padding: 20px;
+}
+
+.msg {
+  height: 193px;
+  width: 493px;
+  left: 3px;
+  top: 183px;
+  border-radius: 7px;
+
+}
+
+/* FOOTER */
+
+footer {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  width: 100vw;
+  bottom: 0px;
+  background: #2E948A;
+}
+
+.logo-footer {
+  margin-left: 200px;
+  margin-top: 15px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  justify-items: center;
+}
+
+ul {
+  list-style: none;
+  margin-left: 20%;
+}
+
+.rodape {
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 71px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttom {
+  display: grid;
+  color: #FFFFFF;
+  width: 300px;
+  height: 50px;
+  margin: 10px;
+  border: 3px solid #FFFFFF;
+  border-radius: 62px;
+  font-size: 22px;
+  align-items: center;
+  justify-items: center;
+  bottom: 15px;
+  color: #FFFFFF;
+}
+
+.btn-comecar {
+  display: grid;
+  background: #FF4081;
+  color: #FFFFFF;
+  width: 233px;
+  height: 51px;
+  margin: 10px;
+  border: 3px solid #FFFFFF;
+  border-radius: 62px;
+  margin-left: 50px;
+  font-size: 20px;
+  align-items: center;
+  justify-items: center;
+  bottom: 15px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width:700px) {
+  body {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logo-header,
+  .logo-footer {
+    display: none;
+  }
+
+  header {
+    width: 390px;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  .courses {
+    flex-direction: column;
+  }
+}
