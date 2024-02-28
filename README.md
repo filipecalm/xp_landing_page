@@ -4,7 +4,7 @@ Construindo um site do zero
 
 Objetivos de Aprendizagem:
 
-Vivencar a experiência de construir um site institucional do zero e colocar em prática tudo que aprendemos sobre HTML e CSS.
+Vivenciar a experiência de construir um site institucional do zero e colocar em prática tudo que aprendemos sobre HTML e CSS.
 
 ● Refletir sobre boas práticas em HTML e CSS.
 
