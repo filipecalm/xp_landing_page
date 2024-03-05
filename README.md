@@ -1,4 +1,4 @@
-# desafio gama xp
+# Landing Page
 
 Construindo um site do zero
 
